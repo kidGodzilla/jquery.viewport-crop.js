@@ -10,7 +10,7 @@ No special requirements for use, by default it modifies the behaviour of each im
 Image tags must have a specified width & height (This becomes the 'viewport').
 
 Ex.
-  <img height="300" width="750" src="http://jamesfuthey.com/phantombuilder.com/themes/spirito/assets/img/demo/bg_1.jpg">
+  &lt;img height="300" width="750" src="http://jamesfuthey.com/phantombuilder.com/themes/spirito/assets/img/demo/bg_1.jpg"&gt;
 
 =============
 
