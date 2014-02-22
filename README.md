@@ -1,6 +1,8 @@
 Viewport-Crop
 =============
 
+<a href="http://jamesfuthey.com/viewport-crop">VIEW DEMO</a>
+
 Simple &amp; hassle-free image resize &amp; crop based on a pseudo-viewport. Touch-friendly via touch-punch.
 
 Requires jQuery, jQuery-ui, & Touch-Punch (Optional).
@@ -11,7 +13,7 @@ Image tags must have a specified width & height (This becomes the 'viewport').
 
 Ex.
 
-  #&lt;img height="300" width="750" src="http://jamesfuthey.com/phantombuilder.com/themes/spirito/assets/img/demo/bg_1.jpg"&gt;
+	<img height="300" width="750" src="1.jpg">
 
 =============
 
@@ -19,7 +21,7 @@ You will probably want to edit the jQuery selector before use. For example, you 
 
 Ex.
 
-  #$('img').each(function() -> $('.croppable').each(function()
+	$('img').each(function() -> $('.croppable').each(function()
   
 Would take all of your images with the class "croppable" and apply this action.
 
@@ -27,9 +29,9 @@ Would take all of your images with the class "croppable" and apply this action.
 
 =============
 
-        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-	      <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-        <script src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
 	<script type="text/javascript">
             $('img').each(function() {
                 $(this).attr('data-img-height', $(this).attr('height'));
