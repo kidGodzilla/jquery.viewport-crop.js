@@ -10,14 +10,16 @@ No special requirements for use, by default it modifies the behaviour of each im
 Image tags must have a specified width & height (This becomes the 'viewport').
 
 Ex.
-  &lt;img height="300" width="750" src="http://jamesfuthey.com/phantombuilder.com/themes/spirito/assets/img/demo/bg_1.jpg"&gt;
+
+  #&lt;img height="300" width="750" src="http://jamesfuthey.com/phantombuilder.com/themes/spirito/assets/img/demo/bg_1.jpg"&gt;
 
 =============
 
 You will probably want to edit the jQuery selector before use. For example, you might want to create a special class for your "croppable" images:
 
 Ex.
-  $('img').each(function() -> $('.croppable').each(function()
+
+  #$('img').each(function() -> $('.croppable').each(function()
   
 Would take all of your images with the class "croppable" and apply this action.
 
