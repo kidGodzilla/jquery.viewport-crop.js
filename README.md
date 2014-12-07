@@ -43,3 +43,4 @@ To do:
 =============
 
 - Viewer for cropped images
+- Add setup parameters for default offset and zoom on load
