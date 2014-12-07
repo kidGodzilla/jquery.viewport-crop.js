@@ -31,6 +31,7 @@ Example
 	<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.2/jquery.ui.touch-punch.min.js"></script>
 	<script src="jquery.viewport-crop.js"></script>
+	
 	<script>
 	  $(document).ready(function () {
 	    $('img.viewport-crop').viewportCrop();
