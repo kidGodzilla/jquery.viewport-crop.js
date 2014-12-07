@@ -1,7 +1,7 @@
 Viewport-Crop
 =============
 
-<a href="http://jsbin.com/xigebiqeyi/16/edit?output">DEMO</a>
+<a href="http://jsbin.com/xigebiqeyi/16/edit?output" target="_new">DEMO</a>
 
 Simple &amp; hassle-free image resize &amp; crop based on a pseudo-viewport. Touch-friendly via touch-punch.
 
